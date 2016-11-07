@@ -1,0 +1,948 @@
+User defaults from command line:
+    IDEArchivePathOverride = /Users/hja/Library/Developer/Xcode/Archives/2016-11-07/sticker-test 2016-11-07 23.33.14.xcarchive
+
+Build settings from command line:
+    GCC_PREPROCESSOR_DEFINITIONS = CMD_LINE_BUILD
+
+=== CLEAN TARGET Pods-sticker-extension OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Clean.Remove clean /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Products/Debug-iphoneos/libPods-sticker-extension.a
+    builtin-rm -rf /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Products/Debug-iphoneos/libPods-sticker-extension.a
+
+Clean.Remove clean /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-sticker-extension.build
+    builtin-rm -rf /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-sticker-extension.build
+
+=== CLEAN TARGET Pods-sticker-test OF PROJECT Pods WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Clean.Remove clean /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Products/Debug-iphoneos/libPods-sticker-test.a
+    builtin-rm -rf /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Products/Debug-iphoneos/libPods-sticker-test.a
+
+Clean.Remove clean /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-sticker-test.build
+    builtin-rm -rf /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-sticker-test.build
+
+=== CLEAN TARGET sticker-extension OF PROJECT sticker-test WITH CONFIGURATION Debug ===
+
+Check dependencies
+[BCEROR]sticker-extension requires a provisioning profile. Select a provisioning profile for the "Debug" build configuration in the project editor.
+[BCEROR]Code signing is required for product type 'App Extension' in SDK 'iOS 10.1'
+
+Create product structure
+/bin/mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Products/Debug-iphoneos/sticker-extension.appex
+
+Clean.Remove clean /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Products/Debug-iphoneos/sticker-extension.appex
+    builtin-rm -rf /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Products/Debug-iphoneos/sticker-extension.appex
+
+Clean.Remove clean /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/sticker-test.build/Debug-iphoneos/sticker-extension.build
+    builtin-rm -rf /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/sticker-test.build/Debug-iphoneos/sticker-extension.build
+
+=== CLEAN TARGET sticker-test OF PROJECT sticker-test WITH CONFIGURATION Debug ===
+
+Check dependencies
+[BCEROR]sticker-test requires a provisioning profile. Select a provisioning profile for the "Debug" build configuration in the project editor.
+[BCEROR]Code signing is required for product type 'Application' in SDK 'iOS 10.1'
+
+Create product structure
+/bin/mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Products/Debug-iphoneos/sticker-test.app
+/bin/mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Products/Debug-iphoneos/sticker-test.app/PlugIns
+
+Clean.Remove clean /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Products/Debug-iphoneos/sticker-test.app
+    builtin-rm -rf /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Products/Debug-iphoneos/sticker-test.app
+
+Clean.Remove clean /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/sticker-test.build/Debug-iphoneos/sticker-test.build
+    builtin-rm -rf /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/sticker-test.build/Debug-iphoneos/sticker-test.build
+
+** CLEAN SUCCEEDED **
+
+=== BUILD TARGET Pods-sticker-extension OF PROJECT Pods WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-project-headers.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-generated-files.hmap
+/bin/mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/armv7
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/armv7/Pods-sticker-extension.LinkFileList
+/bin/mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/arm64
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/arm64/Pods-sticker-extension.LinkFileList
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-all-target-headers.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-own-target-headers.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-all-non-framework-target-headers.hmap
+
+SymLink /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/libPods-sticker-extension.a /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-extension.a
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /bin/ln -sfh /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-extension.a /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/libPods-sticker-extension.a
+
+CompileC /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/armv7/Pods-sticker-extension-dummy.o Target\ Support\ Files/Pods-sticker-extension/Pods-sticker-extension-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Wunreachable-code -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCMD_LINE_BUILD -DNS_BLOCK_ASSERTIONS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=10.1 -g -Wno-sign-conversion -Wno-infinite-recursion -fembed-bitcode -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-generated-files.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-own-target-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-all-target-headers.hmap -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-project-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/include -I/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/DerivedSources/armv7 -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/DerivedSources -F/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -isystem /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -MMD -MT dependencies -MF /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/armv7/Pods-sticker-extension-dummy.d --serialize-diagnostics /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/armv7/Pods-sticker-extension-dummy.dia -c /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Target\ Support\ Files/Pods-sticker-extension/Pods-sticker-extension-dummy.m -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/armv7/Pods-sticker-extension-dummy.o
+
+CompileC /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/arm64/Pods-sticker-extension-dummy.o Target\ Support\ Files/Pods-sticker-extension/Pods-sticker-extension-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Wunreachable-code -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCMD_LINE_BUILD -DNS_BLOCK_ASSERTIONS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=10.1 -g -Wno-sign-conversion -Wno-infinite-recursion -fembed-bitcode -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-generated-files.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-own-target-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-all-target-headers.hmap -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Pods-sticker-extension-project-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/include -I/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/DerivedSources/arm64 -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/DerivedSources -F/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -isystem /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -MMD -MT dependencies -MF /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/arm64/Pods-sticker-extension-dummy.d --serialize-diagnostics /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/arm64/Pods-sticker-extension-dummy.dia -c /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Target\ Support\ Files/Pods-sticker-extension/Pods-sticker-extension-dummy.m -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/arm64/Pods-sticker-extension-dummy.o
+
+Libtool /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/armv7/libPods-sticker-extension.a normal armv7
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export IPHONEOS_DEPLOYMENT_TARGET=10.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -L/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -filelist /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/armv7/Pods-sticker-extension.LinkFileList -framework Foundation -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/armv7/libPods-sticker-extension.a
+
+Libtool /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/arm64/libPods-sticker-extension.a normal arm64
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export IPHONEOS_DEPLOYMENT_TARGET=10.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -L/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -filelist /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/arm64/Pods-sticker-extension.LinkFileList -framework Foundation -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/arm64/libPods-sticker-extension.a
+
+CreateUniversalBinary /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-extension.a normal armv7\ arm64
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/armv7/libPods-sticker-extension.a /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-extension.build/Objects-normal/arm64/libPods-sticker-extension.a -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-extension.a
+
+SetOwnerAndGroup hja:staff /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-extension.a
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /usr/sbin/chown -RH hja:staff /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-extension.a
+
+SetMode u+w,go-w,a+rX /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-extension.a
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /bin/chmod -RH u+w,go-w,a+rX /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-extension.a
+
+=== BUILD TARGET Pods-sticker-test OF PROJECT Pods WITH CONFIGURATION Release ===
+Check dependencies
+
+Write auxiliary files
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-generated-files.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-all-non-framework-target-headers.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-all-target-headers.hmap
+/bin/mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/arm64
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/arm64/Pods-sticker-test.LinkFileList
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-project-headers.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test.hmap
+/bin/mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/armv7
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/armv7/Pods-sticker-test.LinkFileList
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-own-target-headers.hmap
+
+SymLink /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/libPods-sticker-test.a /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-test.a
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /bin/ln -sfh /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-test.a /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/libPods-sticker-test.a
+
+CompileC /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/armv7/Pods-sticker-test-dummy.o Target\ Support\ Files/Pods-sticker-test/Pods-sticker-test-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Wunreachable-code -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCMD_LINE_BUILD -DNS_BLOCK_ASSERTIONS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=10.1 -g -Wno-sign-conversion -Wno-infinite-recursion -fembed-bitcode -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-generated-files.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-own-target-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-all-target-headers.hmap -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-project-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/include -I/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/DerivedSources/armv7 -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/DerivedSources -F/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -isystem /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -MMD -MT dependencies -MF /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/armv7/Pods-sticker-test-dummy.d --serialize-diagnostics /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/armv7/Pods-sticker-test-dummy.dia -c /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Target\ Support\ Files/Pods-sticker-test/Pods-sticker-test-dummy.m -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/armv7/Pods-sticker-test-dummy.o
+
+CompileC /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/arm64/Pods-sticker-test-dummy.o Target\ Support\ Files/Pods-sticker-test/Pods-sticker-test-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Wunreachable-code -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCMD_LINE_BUILD -DNS_BLOCK_ASSERTIONS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=10.1 -g -Wno-sign-conversion -Wno-infinite-recursion -fembed-bitcode -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-generated-files.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-own-target-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-all-target-headers.hmap -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Pods-sticker-test-project-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/include -I/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/DerivedSources/arm64 -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/DerivedSources -F/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -isystem /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -MMD -MT dependencies -MF /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/arm64/Pods-sticker-test-dummy.d --serialize-diagnostics /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/arm64/Pods-sticker-test-dummy.dia -c /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Target\ Support\ Files/Pods-sticker-test/Pods-sticker-test-dummy.m -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/arm64/Pods-sticker-test-dummy.o
+
+Libtool /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/arm64/libPods-sticker-test.a normal arm64
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export IPHONEOS_DEPLOYMENT_TARGET=10.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -L/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -filelist /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/arm64/Pods-sticker-test.LinkFileList -framework Foundation -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/arm64/libPods-sticker-test.a
+
+Libtool /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/armv7/libPods-sticker-test.a normal armv7
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export IPHONEOS_DEPLOYMENT_TARGET=10.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -L/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -filelist /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/armv7/Pods-sticker-test.LinkFileList -framework Foundation -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/armv7/libPods-sticker-test.a
+
+CreateUniversalBinary /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-test.a normal armv7\ arm64
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/armv7/libPods-sticker-test.a /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods-sticker-test.build/Objects-normal/arm64/libPods-sticker-test.a -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-test.a
+
+SetOwnerAndGroup hja:staff /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-test.a
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /usr/sbin/chown -RH hja:staff /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-test.a
+
+SetMode u+w,go-w,a+rX /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-test.a
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /bin/chmod -RH u+w,go-w,a+rX /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/libPods-sticker-test.a
+
+=== BUILD TARGET sticker-extension OF PROJECT sticker-test WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/sticker-extension-all-non-framework-target-headers.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/sticker-extension.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/sticker-extension-generated-files.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/sticker-extension-project-headers.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Script-95E929EF4DBC20F7D471A8BF.sh
+chmod 0755 /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Script-95E929EF4DBC20F7D471A8BF.sh
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Script-262566921DD1323600BD1FE1.sh
+chmod 0755 /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Script-262566921DD1323600BD1FE1.sh
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Script-72654B124D8A654531812F0C.sh
+chmod 0755 /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Script-72654B124D8A654531812F0C.sh
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/sticker-extension-own-target-headers.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/sticker-extension-all-target-headers.hmap
+
+Create product structure
+/bin/mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex
+
+SymLink /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/sticker-extension.appex /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /bin/ln -sfh /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/sticker-extension.appex
+
+PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Script-72654B124D8A654531812F0C.sh
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    /bin/sh -c /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Script-72654B124D8A654531812F0C.sh
+
+CompileAssetCatalog /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex sticker-extension/Stickers.xcassets
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/assetcatalog_dependencies --output-partial-info-plist /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/assetcatalog_generated_info.plist --app-icon iMessage\ App\ Icon --compress-pngs --enable-on-demand-resources NO --sticker-pack-identifier-prefix hjanuschka.sticker-test.sticker-extension.sticker-pack. --target-device iphone --minimum-deployment-target 10.1 --platform iphoneos --product-type com.apple.product-type.app-extension.messages-sticker-pack --compile /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-extension/Stickers.xcassets
+/* com.apple.actool.document.warnings */
+/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-extension/Stickers.xcassets:./iMessage App Icon.stickersiconset/[][][][][][][3d][App Icon 27x20.png]: warning: The stickers icon set "iMessage App Icon" has 5 unassigned children.
+/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-extension/Stickers.xcassets:./iMessage App Icon.stickersiconset/[][][][][][][3d][App Icon 27x20.png]: warning: The stickers icon set "iMessage App Icon" has 5 unassigned children.
+/* com.apple.actool.compilation-results */
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/iMessage App Icon60x45@2x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/iMessage App Icon60x45@3x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/iMessage App Icon67x50@2x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/iMessage App Icon74x55@2x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/iMessage App Icon27x20@2x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/iMessage App Icon27x20@3x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/iMessage App Icon32x24@2x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/iMessage App Icon32x24@3x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/Assets.car
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/Sticker Pack.stickerpack
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/assetcatalog_generated_info.plist
+
+
+ProcessInfoPlistFile /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/Info.plist sticker-extension/Info.plist
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    builtin-infoPlistUtility /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-extension/Info.plist -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/assetcatalog_generated_info.plist -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/Info.plist
+
+PhaseScriptExecution [CP]\ Copy\ Pods\ Resources /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Script-95E929EF4DBC20F7D471A8BF.sh
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    /bin/sh -c /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Script-95E929EF4DBC20F7D471A8BF.sh
+sending incremental file list
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+
+PhaseScriptExecution Remove\ Frameworks /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Script-262566921DD1323600BD1FE1.sh
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export ACTION=install
+    export AD_HOC_CODE_SIGNING_ALLOWED=NO
+    export ALTERNATE_GROUP=staff
+    export ALTERNATE_MODE=u+w,go-w,a+rX
+    export ALTERNATE_OWNER=hja
+    export ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES=NO
+    export ALWAYS_SEARCH_USER_PATHS=NO
+    export ALWAYS_USE_SEPARATE_HEADERMAPS=NO
+    export APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer
+    export APPLE_INTERNAL_DIR=/AppleInternal
+    export APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation
+    export APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library
+    export APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools
+    export APPLICATION_EXTENSION_API_ONLY=YES
+    export APPLY_RULES_IN_COPY_FILES=NO
+    export ARCHS="armv7 arm64"
+    export ARCHS_STANDARD="armv7 arm64"
+    export ARCHS_STANDARD_32_64_BIT="armv7 arm64"
+    export ARCHS_STANDARD_32_BIT=armv7
+    export ARCHS_STANDARD_64_BIT=arm64
+    export ARCHS_STANDARD_INCLUDING_64_BIT="armv7 arm64"
+    export ARCHS_UNIVERSAL_IPHONE_OS="armv7 arm64"
+    export ASSETCATALOG_COMPILER_APPICON_NAME="iMessage App Icon"
+    export ASSET_PACK_FOLDER_PATH=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/OnDemandResources
+    export AVAILABLE_PLATFORMS="appletvos appletvsimulator iphoneos iphonesimulator macosx watchos watchsimulator"
+    export BITCODE_GENERATION_MODE=bitcode
+    export BUILD_ACTIVE_RESOURCES_ONLY=NO
+    export BUILD_COMPONENTS="headers build"
+    export BUILD_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath
+    export BUILD_ROOT=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath
+    export BUILD_STYLE=
+    export BUILD_VARIANTS=normal
+    export BUILT_PRODUCTS_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos
+    export CACHE_ROOT=/var/folders/8k/r51k3md137dfl_qztlbdcp8h0000gn/C/com.apple.DeveloperTools/8.1-8B62/Xcode
+    export CCHROOT=/var/folders/8k/r51k3md137dfl_qztlbdcp8h0000gn/C/com.apple.DeveloperTools/8.1-8B62/Xcode
+    export CHMOD=/bin/chmod
+    export CHOWN=/usr/sbin/chown
+    export CLANG_ANALYZER_NONNULL=YES
+    export CLANG_CXX_LANGUAGE_STANDARD=gnu++0x
+    export CLANG_CXX_LIBRARY=libc++
+    export CLANG_ENABLE_MODULES=YES
+    export CLANG_ENABLE_OBJC_ARC=YES
+    export CLANG_MODULES_BUILD_SESSION_FILE=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation
+    export CLANG_WARN_BOOL_CONVERSION=YES
+    export CLANG_WARN_CONSTANT_CONVERSION=YES
+    export CLANG_WARN_DIRECT_OBJC_ISA_USAGE=YES_ERROR
+    export CLANG_WARN_DOCUMENTATION_COMMENTS=YES
+    export CLANG_WARN_EMPTY_BODY=YES
+    export CLANG_WARN_ENUM_CONVERSION=YES
+    export CLANG_WARN_INFINITE_RECURSION=YES
+    export CLANG_WARN_INT_CONVERSION=YES
+    export CLANG_WARN_OBJC_ROOT_CLASS=YES_ERROR
+    export CLANG_WARN_SUSPICIOUS_MOVES=YES
+    export CLANG_WARN_UNREACHABLE_CODE=YES
+    export CLANG_WARN__DUPLICATE_METHOD_MATCH=YES
+    export CLASS_FILE_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/JavaClasses
+    export CLEAN_PRECOMPS=YES
+    export CLONE_HEADERS=NO
+    export CODESIGNING_FOLDER_PATH=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex
+    export CODE_SIGNING_ALLOWED=YES
+    export CODE_SIGNING_REQUIRED=YES
+    export CODE_SIGN_CONTEXT_CLASS=XCiPhoneOSCodeSignContext
+    export CODE_SIGN_IDENTITY="iPhone Distribution"
+    export COLOR_DIAGNOSTICS=NO
+    export COMBINE_HIDPI_IMAGES=NO
+    export COMMAND_MODE=legacy
+    export COMPOSITE_SDK_DIRS=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/CompositeSDKs
+    export COMPRESS_PNG_FILES=YES
+    export CONFIGURATION=Release
+    export CONFIGURATION_BUILD_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos
+    export CONFIGURATION_TEMP_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos
+    export CONTENTS_FOLDER_PATH=sticker-extension.appex
+    export COPYING_PRESERVES_HFS_DATA=NO
+    export COPY_HEADERS_RUN_UNIFDEF=NO
+    export COPY_PHASE_STRIP=NO
+    export COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES
+    export CORRESPONDING_SIMULATOR_PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform
+    export CORRESPONDING_SIMULATOR_PLATFORM_NAME=iphonesimulator
+    export CORRESPONDING_SIMULATOR_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.1.sdk
+    export CORRESPONDING_SIMULATOR_SDK_NAME=iphonesimulator10.1
+    export CP=/bin/cp
+    export CREATE_INFOPLIST_SECTION_IN_BINARY=NO
+    export CURRENT_ARCH=arm64
+    export CURRENT_VARIANT=normal
+    export DEAD_CODE_STRIPPING=YES
+    export DEBUGGING_SYMBOLS=YES
+    export DEBUG_INFORMATION_FORMAT=dwarf-with-dsym
+    export DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0
+    export DEFAULT_KEXT_INSTALL_PATH=/System/Library/Extensions
+    export DEFINES_MODULE=NO
+    export DEPLOYMENT_LOCATION=YES
+    export DEPLOYMENT_POSTPROCESSING=YES
+    export DEPLOYMENT_TARGET_CLANG_ENV_NAME=IPHONEOS_DEPLOYMENT_TARGET
+    export DEPLOYMENT_TARGET_CLANG_FLAG_NAME=miphoneos-version-min
+    export DEPLOYMENT_TARGET_CLANG_FLAG_PREFIX=-miphoneos-version-min=
+    export DEPLOYMENT_TARGET_SETTING_NAME=IPHONEOS_DEPLOYMENT_TARGET
+    export DEPLOYMENT_TARGET_SUGGESTED_VALUES="8.0 8.1 8.2 8.3 8.4 9.0 9.1 9.2 9.3 10.0 10.1"
+    export DERIVED_FILES_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/DerivedSources
+    export DERIVED_FILE_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/DerivedSources
+    export DERIVED_SOURCES_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/DerivedSources
+    export DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications
+    export DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin
+    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+    export DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks
+    export DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks
+    export DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library
+    export DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
+    export DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools
+    export DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr
+    export DEVELOPMENT_LANGUAGE=English
+    export DEVELOPMENT_TEAM=H2YB79SEHH
+    export DOCUMENTATION_FOLDER_PATH=sticker-extension.appex/English.lproj/Documentation
+    export DO_HEADER_SCANNING_IN_JAM=NO
+    export DSTROOT=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation
+    export DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+    export DWARF_DSYM_FILE_NAME=sticker-extension.appex.dSYM
+    export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO
+    export DWARF_DSYM_FOLDER_PATH=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos
+    export EFFECTIVE_PLATFORM_NAME=-iphoneos
+    export EMBEDDED_CONTENT_CONTAINS_SWIFT=NO
+    export EMBEDDED_PROFILE_NAME=embedded.mobileprovision
+    export EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE=NO
+    export ENABLE_BITCODE=YES
+    export ENABLE_DEFAULT_HEADER_SEARCH_PATHS=YES
+    export ENABLE_HEADER_DEPENDENCIES=YES
+    export ENABLE_NS_ASSERTIONS=NO
+    export ENABLE_ON_DEMAND_RESOURCES=NO
+    export ENABLE_STRICT_OBJC_MSGSEND=YES
+    export ENABLE_TESTABILITY=NO
+    export ENTITLEMENTS_REQUIRED=YES
+    export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=".DS_Store .svn .git .hg CVS"
+    export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES="*.nib *.lproj *.framework *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj"
+    export EXECUTABLES_FOLDER_PATH=sticker-extension.appex/Executables
+    export EXECUTABLE_FOLDER_PATH=sticker-extension.appex
+    export EXECUTABLE_NAME=sticker-extension
+    export EXECUTABLE_PATH=sticker-extension.appex/sticker-extension
+    export EXPANDED_CODE_SIGN_IDENTITY=5DFBE1E10AD234C0AD9A4FFB135F9CFD7F628D70
+    export EXPANDED_CODE_SIGN_IDENTITY_NAME="iPhone Distribution: Krone Multimedia GmbH & Co KG (H2YB79SEHH)"
+    export EXPANDED_PROVISIONING_PROFILE=0e14e9f1-b2b0-445f-af24-cb86f166c9c7
+    export FILE_LIST=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Objects/LinkFileList
+    export FIXED_FILES_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/FixedFiles
+    export FRAMEWORKS_FOLDER_PATH=sticker-extension.appex/Frameworks
+    export FRAMEWORK_FLAG_PREFIX=-framework
+    export FRAMEWORK_SEARCH_PATHS="/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos "
+    export FRAMEWORK_VERSION=A
+    export FULL_PRODUCT_NAME=sticker-extension.appex
+    export GCC3_VERSION=3.3
+    export GCC_C_LANGUAGE_STANDARD=gnu99
+    export GCC_INLINES_ARE_PRIVATE_EXTERN=YES
+    export GCC_NO_COMMON_BLOCKS=YES
+    export GCC_PFE_FILE_C_DIALECTS="c objective-c c++ objective-c++"
+    export GCC_PREPROCESSOR_DEFINITIONS=CMD_LINE_BUILD
+    export GCC_THUMB_SUPPORT=YES
+    export GCC_TREAT_WARNINGS_AS_ERRORS=NO
+    export GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+    export GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0
+    export GCC_WARN_64_TO_32_BIT_CONVERSION=YES
+    export GCC_WARN_ABOUT_RETURN_TYPE=YES_ERROR
+    export GCC_WARN_UNDECLARED_SELECTOR=YES
+    export GCC_WARN_UNINITIALIZED_AUTOS=YES_AGGRESSIVE
+    export GCC_WARN_UNUSED_FUNCTION=YES
+    export GCC_WARN_UNUSED_VARIABLE=YES
+    export GENERATE_MASTER_OBJECT_FILE=NO
+    export GENERATE_PKGINFO_FILE=NO
+    export GENERATE_PROFILING_CODE=NO
+    export GENERATE_TEXT_BASED_STUBS=NO
+    export GID=20
+    export GROUP=staff
+    export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES
+    export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES
+    export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES
+    export HEADERMAP_INCLUDES_PROJECT_HEADERS=YES
+    export HEADERMAP_USES_FRAMEWORK_PREFIX_ENTRIES=YES
+    export HEADERMAP_USES_VFS=NO
+    export HEADER_SEARCH_PATHS="/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/include  \"/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public\""
+    export HIDE_BITCODE_SYMBOLS=YES
+    export HOME=/Users/hja
+    export ICONV=/usr/bin/iconv
+    export INFOPLIST_EXPAND_BUILD_SETTINGS=YES
+    export INFOPLIST_FILE=sticker-extension/Info.plist
+    export INFOPLIST_OUTPUT_FORMAT=binary
+    export INFOPLIST_PATH=sticker-extension.appex/Info.plist
+    export INFOPLIST_PREPROCESS=NO
+    export INFOSTRINGS_PATH=sticker-extension.appex/English.lproj/InfoPlist.strings
+    export INLINE_PRIVATE_FRAMEWORKS=NO
+    export INSTALLHDRS_COPY_PHASE=NO
+    export INSTALLHDRS_SCRIPT_PHASE=NO
+    export INSTALL_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation
+    export INSTALL_GROUP=staff
+    export INSTALL_MODE_FLAG=u+w,go-w,a+rX
+    export INSTALL_OWNER=hja
+    export INSTALL_ROOT=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation
+    export IPHONEOS_DEPLOYMENT_TARGET=10.1
+    export JAVAC_DEFAULT_FLAGS="-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"
+    export JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub
+    export JAVA_ARCHIVE_CLASSES=YES
+    export JAVA_ARCHIVE_TYPE=JAR
+    export JAVA_COMPILER=/usr/bin/javac
+    export JAVA_FOLDER_PATH=sticker-extension.appex/Java
+    export JAVA_FRAMEWORK_RESOURCES_DIRS=Resources
+    export JAVA_JAR_FLAGS=cv
+    export JAVA_SOURCE_SUBDIR=.
+    export JAVA_USE_DEPENDENCIES=YES
+    export JAVA_ZIP_FLAGS=-urg
+    export JIKES_DEFAULT_FLAGS="+E +OLDCSO"
+    export KEEP_PRIVATE_EXTERNS=NO
+    export LD_DEPENDENCY_INFO_FILE=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Objects-normal/arm64/sticker-extension_dependency_info.dat
+    export LD_GENERATE_MAP_FILE=NO
+    export LD_MAP_FILE_PATH=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/sticker-extension-LinkMap-normal-arm64.txt
+    export LD_NO_PIE=NO
+    export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES
+    export LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer
+    export LEX=lex
+    export LIBRARY_FLAG_NOSPACE=YES
+    export LIBRARY_FLAG_PREFIX=-l
+    export LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions
+    export LIBRARY_SEARCH_PATHS="/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos "
+    export LINKER_DISPLAYS_MANGLED_NAMES=NO
+    export LINK_FILE_LIST_normal_arm64=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Objects-normal/arm64/sticker-extension.LinkFileList
+    export LINK_FILE_LIST_normal_armv7=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Objects-normal/armv7/sticker-extension.LinkFileList
+    export LINK_WITH_STANDARD_LIBRARIES=YES
+    export LOCALIZABLE_CONTENT_DIR=
+    export LOCALIZED_RESOURCES_FOLDER_PATH=sticker-extension.appex/English.lproj
+    export LOCAL_ADMIN_APPS_DIR=/Applications/Utilities
+    export LOCAL_APPS_DIR=/Applications
+    export LOCAL_DEVELOPER_DIR=/Library/Developer
+    export LOCAL_LIBRARY_DIR=/Library
+    export LOCROOT=
+    export LOCSYMROOT=
+    export MACH_O_TYPE=mh_execute
+    export MAC_OS_X_PRODUCT_BUILD_VERSION=16A323
+    export MAC_OS_X_VERSION_ACTUAL=101200
+    export MAC_OS_X_VERSION_MAJOR=101200
+    export MAC_OS_X_VERSION_MINOR=1200
+    export MESSAGES_APPLICATION_EXTENSION_PRODUCT_BINARY_SOURCE_PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Application Support/MessagesApplicationExtensionStub/MessagesApplicationExtensionStub"
+    export MESSAGES_APPLICATION_EXTENSION_SUPPORT_FOLDER_PATH=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/MessagesApplicationExtensionSupport
+    export MESSAGES_APPLICATION_SUPPORT_FOLDER_PATH=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/MessagesApplicationSupport
+    export METAL_LIBRARY_FILE_BASE=default
+    export METAL_LIBRARY_OUTPUT_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex
+    export MODULE_CACHE_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache
+    export MTL_ENABLE_DEBUG_INFO=NO
+    export NATIVE_ARCH=armv7
+    export NATIVE_ARCH_32_BIT=i386
+    export NATIVE_ARCH_64_BIT=x86_64
+    export NATIVE_ARCH_ACTUAL=x86_64
+    export NO_COMMON=YES
+    export OBJECT_FILE_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Objects
+    export OBJECT_FILE_DIR_normal=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Objects-normal
+    export OBJROOT=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath
+    export ONLY_ACTIVE_ARCH=NO
+    export OS=MACOS
+    export OSAC=/usr/bin/osacompile
+    export OTHER_CFLAGS=" -isystem \"/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public\""
+    export OTHER_CPLUSPLUSFLAGS=" -isystem \"/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public\""
+    export OTHER_LDFLAGS=" -ObjC"
+    export PACKAGE_TYPE=com.apple.package-type.app-extension
+    export PASCAL_STRINGS=YES
+    export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES="/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"
+    export PBDEVELOPMENTPLIST_PATH=sticker-extension.appex/pbdevelopment.plist
+    export PKGINFO_FILE_PATH=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/PkgInfo
+    export PKGINFO_PATH=sticker-extension.appex/PkgInfo
+    export PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications
+    export PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin
+    export PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library
+    export PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs
+    export PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools
+    export PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr
+    export PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform
+    export PLATFORM_DISPLAY_NAME=iOS
+    export PLATFORM_NAME=iphoneos
+    export PLATFORM_PREFERRED_ARCH=arm64
+    export PLATFORM_PRODUCT_BUILD_VERSION=14B72
+    export PLIST_FILE_OUTPUT_FORMAT=binary
+    export PLUGINS_FOLDER_PATH=sticker-extension.appex/PlugIns
+    export PODS_BUILD_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath
+    export PODS_CONFIGURATION_BUILD_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos
+    export PODS_ROOT=/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods
+    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES
+    export PRECOMP_DESTINATION_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/PrefixHeaders
+    export PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO
+    export PRIVATE_HEADERS_FOLDER_PATH=sticker-extension.appex/PrivateHeaders
+    export PRODUCT_BUNDLE_IDENTIFIER=hjanuschka.sticker-test.sticker-extension
+    export PRODUCT_MODULE_NAME=sticker_extension
+    export PRODUCT_NAME=sticker-extension
+    export PRODUCT_SETTINGS_PATH=/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-extension/Info.plist
+    export PRODUCT_SPECIFIC_LDFLAGS="-e _NSExtensionMain"
+    export PRODUCT_TYPE=com.apple.product-type.app-extension.messages-sticker-pack
+    export PROFILING_CODE=NO
+    export PROJECT=sticker-test
+    export PROJECT_DERIVED_FILE_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/DerivedSources
+    export PROJECT_DIR=/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PROJECT_FILE_PATH=/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-test.xcodeproj
+    export PROJECT_NAME=sticker-test
+    export PROJECT_TEMP_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build
+    export PROJECT_TEMP_ROOT=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath
+    export PROVISIONING_PROFILE_SPECIFIER=0e14e9f1-b2b0-445f-af24-cb86f166c9c7
+    export PUBLIC_HEADERS_FOLDER_PATH=sticker-extension.appex/Headers
+    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES
+    export REMOVE_CVS_FROM_RESOURCES=YES
+    export REMOVE_GIT_FROM_RESOURCES=YES
+    export REMOVE_HEADERS_FROM_EMBEDDED_BUNDLES=YES
+    export REMOVE_HG_FROM_RESOURCES=YES
+    export REMOVE_SVN_FROM_RESOURCES=YES
+    export REZ_COLLECTOR_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/ResourceManagerResources
+    export REZ_OBJECTS_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/ResourceManagerResources/Objects
+    export REZ_SEARCH_PATHS="/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos "
+    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO
+    export SCRIPTS_FOLDER_PATH=sticker-extension.appex/Scripts
+    export SCRIPT_INPUT_FILE_COUNT=0
+    export SCRIPT_OUTPUT_FILE_COUNT=0
+    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk
+    export SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk
+    export SDK_DIR_iphoneos10_1=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk
+    export SDK_NAME=iphoneos10.1
+    export SDK_NAMES=iphoneos10.1
+    export SDK_PRODUCT_BUILD_VERSION=14B72
+    export SDK_VERSION=10.1
+    export SDK_VERSION_ACTUAL=100100
+    export SDK_VERSION_MAJOR=100000
+    export SDK_VERSION_MINOR=100
+    export SED=/usr/bin/sed
+    export SEPARATE_STRIP=NO
+    export SEPARATE_SYMBOL_EDIT=NO
+    export SET_DIR_MODE_OWNER_GROUP=YES
+    export SET_FILE_MODE_OWNER_GROUP=NO
+    export SHALLOW_BUNDLE=YES
+    export SHARED_DERIVED_FILE_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/DerivedSources
+    export SHARED_FRAMEWORKS_FOLDER_PATH=sticker-extension.appex/SharedFrameworks
+    export SHARED_PRECOMPS_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/PrecompiledHeaders
+    export SHARED_SUPPORT_FOLDER_PATH=sticker-extension.appex/SharedSupport
+    export SKIP_INSTALL=YES
+    export SOURCE_ROOT=/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export SRCROOT=/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export STRINGS_FILE_OUTPUT_ENCODING=binary
+    export STRIP_BITCODE_FROM_COPIED_FILES=YES
+    export STRIP_INSTALLED_PRODUCT=YES
+    export STRIP_STYLE=non-global
+    export SUPPORTED_DEVICE_FAMILIES=1,2
+    export SUPPORTED_PLATFORMS="iphonesimulator iphoneos"
+    export SUPPORTS_TEXT_BASED_API=NO
+    export SWIFT_PLATFORM_TARGET_PREFIX=ios
+    export SWIFT_STDLIB_TOOL_UNSIGNED_DESTINATION_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/SwiftSupport
+    export SYMROOT=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath
+    export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities
+    export SYSTEM_APPS_DIR=/Applications
+    export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices
+    export SYSTEM_DEMOS_DIR=/Applications/Extras
+    export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications
+    export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin
+    export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"
+    export SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+    export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library"
+    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"
+    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"
+    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"
+    export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"
+    export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools
+    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"
+    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"
+    export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr
+    export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities
+    export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation
+    export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions
+    export SYSTEM_LIBRARY_DIR=/System/Library
+    export TAPI_VERIFY_MODE=ErrorsOnly
+    export TARGETED_DEVICE_FAMILY=1
+    export TARGETNAME=sticker-extension
+    export TARGET_BUILD_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos
+    export TARGET_NAME=sticker-extension
+    export TARGET_TEMP_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build
+    export TEMP_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build
+    export TEMP_FILES_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build
+    export TEMP_FILE_DIR=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build
+    export TEMP_ROOT=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath
+    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault
+    export TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+    export TREAT_MISSING_BASELINES_AS_TEST_FAILURES=NO
+    export UID=501
+    export UNLOCALIZED_RESOURCES_FOLDER_PATH=sticker-extension.appex
+    export UNSTRIPPED_PRODUCT=NO
+    export USER=hja
+    export USER_APPS_DIR=/Users/hja/Applications
+    export USER_LIBRARY_DIR=/Users/hja/Library
+    export USE_DYNAMIC_NO_PIC=YES
+    export USE_HEADERMAP=YES
+    export USE_HEADER_SYMLINKS=NO
+    export VALIDATE_PRODUCT=YES
+    export VALID_ARCHS="arm64 armv7 armv7s"
+    export VERBOSE_PBXCP=NO
+    export VERSIONING_SYSTEM=apple-generic
+    export VERSIONPLIST_PATH=sticker-extension.appex/version.plist
+    export VERSION_INFO_BUILDER=hja
+    export VERSION_INFO_FILE=sticker-extension_vers.c
+    export VERSION_INFO_STRING="\"@(#)PROGRAM:sticker-extension  PROJECT:sticker-test-\""
+    export WATCHKIT_2_SUPPORT_FOLDER_PATH=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/WatchKitSupport2
+    export WATCHKIT_SUPPORT_FOLDER_PATH=/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/WatchKitSupport
+    export WRAPPER_EXTENSION=appex
+    export WRAPPER_NAME=sticker-extension.appex
+    export WRAPPER_SUFFIX=.appex
+    export WRAP_ASSET_PACKS_IN_SEPARATE_DIRECTORIES=NO
+    export XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode
+    export XCODE_PRODUCT_BUILD_VERSION=8B62
+    export XCODE_VERSION_ACTUAL=0810
+    export XCODE_VERSION_MAJOR=0800
+    export XCODE_VERSION_MINOR=0810
+    export XPCSERVICES_FOLDER_PATH=sticker-extension.appex/XPCServices
+    export YACC=yacc
+    export arch=arm64
+    export variant=normal
+    /bin/sh -c /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/Script-262566921DD1323600BD1FE1.sh
+
+Ditto /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/sticker-extension /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Application\ Support/MessagesApplicationExtensionStub/MessagesApplicationExtensionStub
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /usr/bin/ditto -rsrc /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Application\ Support/MessagesApplicationExtensionStub/MessagesApplicationExtensionStub /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/sticker-extension
+
+Ditto /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/MessagesApplicationExtensionSupport/MessagesApplicationExtensionStub /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Application\ Support/MessagesApplicationExtensionStub/MessagesApplicationExtensionStub
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /usr/bin/ditto -rsrc /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Application\ Support/MessagesApplicationExtensionStub/MessagesApplicationExtensionStub /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/MessagesApplicationExtensionSupport/MessagesApplicationExtensionStub
+
+SetOwnerAndGroup hja:staff /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /usr/sbin/chown -RH hja:staff /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex
+
+SetMode u+w,go-w,a+rX /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /bin/chmod -RH u+w,go-w,a+rX /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex
+
+ProcessProductPackaging /Users/hja/Library/MobileDevice/Provisioning\ Profiles/0e14e9f1-b2b0-445f-af24-cb86f166c9c7.mobileprovision /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/embedded.mobileprovision
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    builtin-productPackagingUtility /Users/hja/Library/MobileDevice/Provisioning\ Profiles/0e14e9f1-b2b0-445f-af24-cb86f166c9c7.mobileprovision -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex/embedded.mobileprovision
+
+Touch /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /usr/bin/touch -c /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex
+
+ProcessProductPackaging "" /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/sticker-extension.appex.xcent
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    
+
+Entitlements:
+
+{
+    "application-identifier" = "H2YB79SEHH.hjanuschka.sticker-test.sticker-extension";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = H2YB79SEHH;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "H2YB79SEHH.hjanuschka.sticker-test.sticker-extension"
+    );
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/sticker-extension.appex.xcent
+
+CodeSign /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    
+Signing Identity:     "iPhone Distribution: Krone Multimedia GmbH & Co KG (H2YB79SEHH)"
+Provisioning Profile: "match AppStore hjanuschka.sticker-test.sticker-extension"
+                      (0e14e9f1-b2b0-445f-af24-cb86f166c9c7)
+
+    /usr/bin/codesign --force --sign 5DFBE1E10AD234C0AD9A4FFB135F9CFD7F628D70 --entitlements /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-extension.build/sticker-extension.appex.xcent --timestamp=none /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/sticker-extension.appex: replacing existing signature
+
+=== BUILD TARGET sticker-test OF PROJECT sticker-test WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Script-0C105881956D5FBC387E707A.sh
+chmod 0755 /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Script-0C105881956D5FBC387E707A.sh
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Script-43F2BC8CB7E564F19AF0F926.sh
+chmod 0755 /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Script-43F2BC8CB7E564F19AF0F926.sh
+/bin/mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/sticker-test.LinkFileList
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Script-603B959B37A9921DE10995CB.sh
+chmod 0755 /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Script-603B959B37A9921DE10995CB.sh
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-all-non-framework-target-headers.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-own-target-headers.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-project-headers.hmap
+/bin/mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/sticker-test.LinkFileList
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-all-target-headers.hmap
+write-file /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-generated-files.hmap
+
+Create product structure
+/bin/mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app
+/bin/mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/PlugIns
+
+SymLink /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/sticker-test.app /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /bin/ln -sfh /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/sticker-test.app
+
+PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Script-43F2BC8CB7E564F19AF0F926.sh
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    /bin/sh -c /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Script-43F2BC8CB7E564F19AF0F926.sh
+
+CompileC /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/ViewController.o sticker-test/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-cache-path=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCMD_LINE_BUILD -DNS_BLOCK_ASSERTIONS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=10.1 -g -fvisibility=hidden -Wno-sign-conversion -Winfinite-recursion -fembed-bitcode -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-generated-files.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-own-target-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-all-target-headers.hmap -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-project-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/include -I/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/DerivedSources/armv7 -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/DerivedSources -F/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -isystem /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -MMD -MT dependencies -MF /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/ViewController.dia -c /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-test/ViewController.m -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/ViewController.o
+
+CompileC /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/AppDelegate.o sticker-test/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-cache-path=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCMD_LINE_BUILD -DNS_BLOCK_ASSERTIONS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=10.1 -g -fvisibility=hidden -Wno-sign-conversion -Winfinite-recursion -fembed-bitcode -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-generated-files.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-own-target-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-all-target-headers.hmap -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-project-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/include -I/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/DerivedSources/armv7 -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/DerivedSources -F/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -isystem /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -MMD -MT dependencies -MF /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/AppDelegate.dia -c /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-test/AppDelegate.m -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/AppDelegate.o
+
+CompileC /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/main.o sticker-test/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-cache-path=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCMD_LINE_BUILD -DNS_BLOCK_ASSERTIONS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=10.1 -g -fvisibility=hidden -Wno-sign-conversion -Winfinite-recursion -fembed-bitcode -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-generated-files.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-own-target-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-all-target-headers.hmap -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-project-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/include -I/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/DerivedSources/armv7 -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/DerivedSources -F/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -isystem /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -MMD -MT dependencies -MF /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/main.dia -c /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-test/main.m -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/main.o
+
+CompileC /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/ViewController.o sticker-test/ViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-cache-path=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCMD_LINE_BUILD -DNS_BLOCK_ASSERTIONS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=10.1 -g -fvisibility=hidden -Wno-sign-conversion -Winfinite-recursion -fembed-bitcode -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-generated-files.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-own-target-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-all-target-headers.hmap -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-project-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/include -I/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/DerivedSources/arm64 -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/DerivedSources -F/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -isystem /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -MMD -MT dependencies -MF /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/ViewController.d --serialize-diagnostics /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/ViewController.dia -c /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-test/ViewController.m -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/ViewController.o
+
+CompileC /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/AppDelegate.o sticker-test/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-cache-path=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCMD_LINE_BUILD -DNS_BLOCK_ASSERTIONS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=10.1 -g -fvisibility=hidden -Wno-sign-conversion -Winfinite-recursion -fembed-bitcode -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-generated-files.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-own-target-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-all-target-headers.hmap -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-project-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/include -I/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/DerivedSources/arm64 -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/DerivedSources -F/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -isystem /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -MMD -MT dependencies -MF /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/AppDelegate.dia -c /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-test/AppDelegate.m -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/AppDelegate.o
+
+CompileC /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/main.o sticker-test/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-cache-path=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/hja/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DCMD_LINE_BUILD -DNS_BLOCK_ASSERTIONS=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -miphoneos-version-min=10.1 -g -fvisibility=hidden -Wno-sign-conversion -Winfinite-recursion -fembed-bitcode -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-generated-files.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-own-target-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-all-target-headers.hmap -iquote /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test-project-headers.hmap -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/include -I/Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/DerivedSources/arm64 -I/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/DerivedSources -F/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -isystem /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/Pods/Headers/Public -MMD -MT dependencies -MF /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/main.dia -c /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-test/main.m -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/main.o
+
+Ld /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/sticker-test normal arm64
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export IPHONEOS_DEPLOYMENT_TARGET=10.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -L/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -F/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -filelist /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/sticker-test.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -miphoneos-version-min=10.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/sticker-test_lto.o -fembed-bitcode -Xlinker -bitcode_verify -Xlinker -bitcode_hide_symbols -Xlinker -bitcode_symbol_map -Xlinker /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -fobjc-arc -fobjc-link-runtime -ObjC -lPods-sticker-test -Xlinker -dependency_info -Xlinker /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/sticker-test_dependency_info.dat -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/sticker-test
+
+Ld /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/sticker-test normal armv7
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export IPHONEOS_DEPLOYMENT_TARGET=10.1
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk -L/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -F/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -filelist /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/sticker-test.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -miphoneos-version-min=10.1 -dead_strip -Xlinker -object_path_lto -Xlinker /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/sticker-test_lto.o -fembed-bitcode -Xlinker -bitcode_verify -Xlinker -bitcode_hide_symbols -Xlinker -bitcode_symbol_map -Xlinker /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos -fobjc-arc -fobjc-link-runtime -ObjC -lPods-sticker-test -Xlinker -dependency_info -Xlinker /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/sticker-test_dependency_info.dat -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/sticker-test
+
+CreateUniversalBinary /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/sticker-test normal armv7\ arm64
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/armv7/sticker-test /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Objects-normal/arm64/sticker-test -output /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/sticker-test
+
+CompileStoryboard sticker-test/Base.lproj/LaunchScreen.storyboard
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module sticker_test --output-partial-info-plist /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/LaunchScreen-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --minimum-deployment-target 10.1 --output-format human-readable-text --compilation-directory /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Base.lproj /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-test/Base.lproj/LaunchScreen.storyboard
+
+CompileStoryboard sticker-test/Base.lproj/Main.storyboard
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module sticker_test --output-partial-info-plist /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Main-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --minimum-deployment-target 10.1 --output-format human-readable-text --compilation-directory /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Base.lproj /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-test/Base.lproj/Main.storyboard
+
+CompileAssetCatalog /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app sticker-test/Assets.xcassets
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/assetcatalog_dependencies --output-partial-info-plist /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/assetcatalog_generated_info.plist --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --sticker-pack-identifier-prefix hjanuschka.sticker-test.sticker-pack. --target-device iphone --minimum-deployment-target 10.1 --platform iphoneos --product-type com.apple.product-type.application --compile /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-test/Assets.xcassets
+/* com.apple.actool.compilation-results */
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/AppIcon20x20@2x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/AppIcon20x20@3x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/AppIcon29x29@2x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/AppIcon29x29@3x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/AppIcon40x40@2x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/AppIcon40x40@3x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/AppIcon60x60@2x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/AppIcon60x60@3x.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/AppIcon40x40~ipad.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/AppIcon40x40@2x~ipad.png
+/Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/assetcatalog_generated_info.plist
+
+
+ProcessInfoPlistFile /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/Info.plist sticker-test/Info.plist
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    builtin-infoPlistUtility /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test/sticker-test/Info.plist -genpkginfo /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/assetcatalog_generated_info.plist -additionalcontentfile /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/LaunchScreen-SBPartialInfo.plist -additionalcontentfile /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Main-SBPartialInfo.plist -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/Info.plist
+
+GenerateDSYMFile /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/sticker-test.app.dSYM /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/sticker-test
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/sticker-test -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/sticker-test.app.dSYM
+
+LinkStoryboards
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module sticker_test --target-device iphone --minimum-deployment-target 10.1 --output-format human-readable-text --link /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Base.lproj/LaunchScreen.storyboardc /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Base.lproj/Main.storyboardc
+
+PBXCp /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/sticker-extension.appex /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/PlugIns/sticker-extension.appex
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -resolve-src-symlinks /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/sticker-extension.appex /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/PlugIns
+
+ValidateEmbeddedBinary /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/PlugIns/sticker-extension.appex
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    builtin-embeddedBinaryValidationUtility /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/PlugIns/sticker-extension.appex -signing-cert 5DFBE1E10AD234C0AD9A4FFB135F9CFD7F628D70 -info-plist-path /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/Info.plist
+
+PhaseScriptExecution [CP]\ Embed\ Pods\ Frameworks /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Script-0C105881956D5FBC387E707A.sh
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    /bin/sh -c /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Script-0C105881956D5FBC387E707A.sh
+mkdir -p /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/sticker-test.app/Frameworks
+
+PhaseScriptExecution [CP]\ Copy\ Pods\ Resources /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Script-603B959B37A9921DE10995CB.sh
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    /bin/sh -c /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/Script-603B959B37A9921DE10995CB.sh
+sending incremental file list
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+sending incremental file list
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+
+Strip /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/sticker-test
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/sticker-test
+
+SetOwnerAndGroup hja:staff /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /usr/sbin/chown -RH hja:staff /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app
+
+SetMode u+w,go-w,a+rX /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /bin/chmod -RH u+w,go-w,a+rX /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app
+
+ProcessProductPackaging /Users/hja/Library/MobileDevice/Provisioning\ Profiles/bd08351a-a6f7-4989-91ac-fc57a1f602f6.mobileprovision /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/embedded.mobileprovision
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    builtin-productPackagingUtility /Users/hja/Library/MobileDevice/Provisioning\ Profiles/bd08351a-a6f7-4989-91ac-fc57a1f602f6.mobileprovision -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app/embedded.mobileprovision
+
+Touch /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /usr/bin/touch -c /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app
+
+ProcessProductPackaging "" /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test.app.xcent
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    
+
+Entitlements:
+
+{
+    "application-identifier" = "H2YB79SEHH.hjanuschka.sticker-test";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = H2YB79SEHH;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "H2YB79SEHH.hjanuschka.sticker-test"
+    );
+}
+
+
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test.app.xcent
+
+CodeSign /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    
+Signing Identity:     "iPhone Distribution: Krone Multimedia GmbH & Co KG (H2YB79SEHH)"
+Provisioning Profile: "match AppStore hjanuschka.sticker-test"
+                      (bd08351a-a6f7-4989-91ac-fc57a1f602f6)
+
+    /usr/bin/codesign --force --sign 5DFBE1E10AD234C0AD9A4FFB135F9CFD7F628D70 --entitlements /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/IntermediateBuildFilesPath/sticker-test.build/Release-iphoneos/sticker-test.build/sticker-test.app.xcent --timestamp=none /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app
+
+Validate /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/InstallationBuildProductsLocation/Applications/sticker-test.app -validate-for-store
+
+Touch /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/sticker-test.app.dSYM
+    cd /Users/hja/Desktop/SPORTPORTAL/sticker-test/sticker-test
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/hja/.rvm/gems/ruby-2.2.5/bin:/Users/hja/.rvm/gems/ruby-2.2.5@global/bin:/Users/hja/.rvm/rubies/ruby-2.2.5/bin:/Users/hja/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mysql/bin"
+    /usr/bin/touch -c /Users/hja/Library/Developer/Xcode/DerivedData/sticker-test-gwqvpynzvqkqhjdgkdtiocrqtxtt/Build/Intermediates/ArchiveIntermediates/sticker-test/BuildProductsPath/Release-iphoneos/sticker-test.app.dSYM
+
+** ARCHIVE SUCCEEDED **
+

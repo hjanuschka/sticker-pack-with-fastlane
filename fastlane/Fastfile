@@ -1,0 +1,35 @@
+$cert_repo = ENV["GIT_REPO"]
+$self_workspace = 'sticker-test.xcworkspace'
+$self_project = 'sticker-test.xcodeproj'
+$self_scheme = 'sticker-test'
+$self_idfs = ['hjanuschka.sticker-test', 'hjanuschka.sticker-test.sticker-extension']
+
+lane :do_local_test do
+  update_project_codesigning(path: $self_project, use_automatic_signing: false)
+  match(git_url: $cert_repo,
+        type: 'appstore',
+        app_identifier: $self_idfs)
+  begin
+   last_tf = latest_testflight_build_number
+  rescue
+   puts 'No Active Build using build nr. 0'
+   last_tf = 0
+ end
+  increment_build_number(build_number: last_tf + 7)
+  cocoapods(repo_update: true)
+  unlock_keychain
+
+  gym(scheme: $self_scheme,
+      clean: true,
+      workspace: $self_workspace,
+      silent: true,
+      xcargs: "GCC_PREPROCESSOR_DEFINITIONS='CMD_LINE_BUILD'",
+      buildlog_path: 'fastlane/logs')
+
+  pilot(skip_submission: false, wait_processing_interval: 60)
+  update_project_codesigning(path: $self_project, use_automatic_signing: true)
+end
+
+error do |_lane, exception|
+  update_project_codesigning(path: $self_project, use_automatic_signing: true)
+end
